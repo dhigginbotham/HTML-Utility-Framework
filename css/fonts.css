@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'IcoMoon';
+	src: url('../fonts/IcoMoon.eot');
+	src: url('../fonts/IcoMoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/IcoMoon.svg#IcoMoon') format('svg'),
+		url('../fonts/IcoMoon.woff') format('woff'),
+		url('../fonts/IcoMoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'IcoMoon';
+	content: attr(data-icon);
+	speak: none;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'IcoMoon';
+	font-style: normal;
+	speak: none;
+}
+.icon-home:before {
+	content: "\22";
+}
+.icon-box-add:before {
+	content: "\21";
+}
+.icon-user:before {
+	content: "\23";
+}
+.icon-busy:before {
+	content: "\24";
+}
+.icon-loading:before {
+	content: "\25";
+}
+.icon-diamond:before {
+	content: "\26";
+}
+.icon-cog:before {
+	content: "\27";
+}
+.icon-pie:before {
+	content: "\28";
+}
+.icon-comments:before {
+	content: "\29";
+}
+.icon-grid-view:before {
+	content: "\2a";
+}
+.icon-thumbs-up:before {
+	content: "\2b";
+}
+.icon-thumbs-down:before {
+	content: "\2c";
+}
+.icon-twitter:before {
+	content: "\2e";
+}
+.icon-github:before {
+	content: "\2d";
+}
+.icon-chrome:before {
+	content: "\2f";
+}
+.icon-IE:before {
+	content: "\30";
+}
+.icon-libreoffice:before {
+	content: "\31";
+}
+.icon-share:before {
+	content: "\32";
+}
+.icon-arrow-right:before {
+	content: "\33";
+}
+.icon-arrow-left:before {
+	content: "\34";
+}
+.icon-plus:before {
+	content: "\35";
+}
+.icon-minus:before {
+	content: "\36";
+}
+.icon-cancel:before {
+	content: "\38";
+}
+.icon-info:before {
+	content: "\37";
+}
+.icon-bookmark:before {
+	content: "\39";
+}
+.icon-bookmark-2:before {
+	content: "\3a";
+}
+.icon-fire:before {
+	content: "\3b";
+}
+.icon-rocket:before {
+	content: "\3c";
+}
+.icon-equalizer:before {
+	content: "\3d";
+}
+.icon-location:before {
+	content: "\3e";
+}

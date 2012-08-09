@@ -1,0 +1,111 @@
+/* apply a natural box layout model to all elements  <3 paul irish */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* prefixes */
+div { display: block; margin: 0; padding: 0; }
+.pull-right { float: right; }
+.pull-left { float: left; }
+.drop-all {margin:0;padding:0;}
+
+/* thnx chris @ css-tricks for this one :D*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* alerts & messages */
+.alert {
+	background: #ffcf4f;
+}
+.success {
+  background: #94da30;
+}
+.message {
+ 	border-radius: 5px;
+  border: 2px solid rgba(50,50,50,0.1);
+  margin: 1em 0;
+}
+
+/* static wrappers */
+.wrapper {
+  width: 100%;
+}
+
+.gsify { 
+  width: 960px;
+  margin: 0 auto; 
+}
+
+/* section elements */
+.boxed {
+  float: left;
+  width: 100%;
+  /*padding: 0 0.75em; does funny stuff to the boxes*/
+}
+
+.boxed-y {
+	padding: 1.25em 0;
+}
+
+.boxed-x {
+	padding: 0 0 0 1.145em;
+}
+
+.boxed-xy {
+	padding: 1.25em 0 0 1.145em;
+}
+
+.last-boxed {
+  float: right; clear: right;
+}
+
+.clear-padding {
+	padding: inherit 0 inherit inherit;
+}
+
+.triple { /*this in conjunction with .four will give you 2 column */
+	width: 75%;
+}
+
+.middle { /* slightly larger center or larger sidebar w/ .quad */
+	width: 60%;
+}
+
+.two { 
+ width: 50%; 
+}
+
+.three {
+  width: 33.3%;
+}
+
+.quad { /* slightly larger sidebar */
+	width: 40%;
+}
+
+.four {
+  width: 25%;
+}
+
+.five {
+ width: 20%; 
+}
+
+/* form ui */
+label {
+	display: block;
+}
+
+input[type="text"], input[type="submit"] {
+	display: block;
+}
+

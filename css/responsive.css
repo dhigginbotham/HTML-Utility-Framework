@@ -1,0 +1,61 @@
+/* Landscape phones and down */
+  @media (max-width: 480px) {
+ 		
+ 		.gsify {max-width: 100%;clear:both;}
+ 		.boxed {float: none;clear: both;}
+ 		.ul-highlight { font-size: 13px; }
+ 		.ui-container {border: none !important;}
+ 		.ui-container.first-elem {border: none !important;}
+ 		.two, .three, .four, .five, .triple, .quad, .middle { width: 100%;clear:both; }
+
+		.brand {
+			min-width: 100%;
+		}
+		
+		#slider {
+			min-height: 100px;
+		}
+		
+ 		#top-nav li, #top-nav li a {
+ 			min-width: 100%;
+ 			border: none !important;
+ 			box-shadow: none !important; 
+ 		}
+ 		
+ 		.megaphone { max-width: 90%; margin: 0 auto;}
+ 		
+ 		#content { max-width: 90%; margin: 0 auto;}
+ 		
+ 		.ui-content img {
+ 			max-width: 97%;
+ 		}
+ 		
+ 		 	
+  }
+ 
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 767px) {
+ 		.gsify {max-width: 100%;clear:both;}
+ 		.boxed {float: none;clear: both;}
+ 		.ul-highlight { font-size: 13px; }
+ 		.ui-container {border: none;}
+ 		.two, .three, .four, .five, .triple, .quad, .middle { width: 100%;clear:both; }
+
+		#slider.wrapper {
+			min-height: 100px;
+		}
+
+ 		.ui-content img {
+ 			max-width: 97%;
+ 		}
+ 		
+  }
+
+ 
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 979px) {
+ 		.ui-content img {
+ 			max-width: 97%;
+ 		}
+  }
+
